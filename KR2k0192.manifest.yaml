@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR2k0192/v1
+canonical_location: https://kanripo.org/bkk/KR2k0192/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 會稽記一卷
+  identifiers:
+    krp: KR2k0192
+  tags:
+    kr-categories: KR2k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0192.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2k0192_001.yaml, hash: 'sha256:48377aec787213e1b01939859c312a747317fd98662ba837704ac3e5141b5851'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2k0192_001.markers.yaml, hash: 'sha256:27e10f1efe92673c780d65558b79c868e88b25b6421deb21087c87e8e6429b31'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2k0192_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 233
+  label: 會稽記
+  type: section
+  level: 1
+hash: sha256:9184e95205128d5cccaaa88c15fcac76d26559530bf6113713bd5da7fb3938aa
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

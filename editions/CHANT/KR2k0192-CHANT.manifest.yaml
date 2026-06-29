@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR2k0192/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2k0192/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 會稽記一卷
+  identifiers:
+    krp: KR2k0192
+  tags:
+    kr-categories: KR2k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0192.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2k0192_001-CHANT.yaml, hash: 'sha256:12fc7a5328c4fe9fd1524fb54cd375b288116a009e437ad91fee6a0a9a8fb1d4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2k0192_001-CHANT.markers.yaml, hash: 'sha256:1749b2c870c8f62578fa213070a08998da255cfecf7456b92e67b305e28b6eb8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2k0192_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 233
+  label: 會稽記
+  type: section
+  level: 1
+hash: sha256:17d318a6ec57b4a54a81d7dd2fb4947129359df9c60cf46344792fad7e40ef35
